@@ -1,1 +1,99 @@
-Hello world
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="p-header.css">
+    <link rel="stylesheet" href="p-buttons.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Navbar</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="p-header.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/876efeb5c4.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .intro-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            /* Adjust based on your design needs */
+            margin-top: 50px;
+        }
+
+        .profile-img-container {
+            flex: 1;
+            text-align: center;
+        }
+
+        .profile-img-container img {
+            width: 100%;
+            /* Adjust image size as needed */
+            max-width: 300px;
+            /* Adjust based on your design needs */
+        }
+
+        .main-intro-container {
+            flex: 2;
+            margin: 0 20px;
+        }
+
+        .SMicon i {
+            margin: 0 10px;
+            font-size: 24px;
+            /* Adjust icon size as needed */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-tab">
+        <p class="header-text"><strong>Gyury Lee</strong></p>
+    </div>
+    <div class="header-tab menu effect">
+        <li><a href="#">About</a></li>
+        <li><a href="gyury-resume-3-27-24.pdf">Experience</a></li>
+        <li><a href="p-header.css">Interests</a></li>
+        <li><a href="p-header.css">Contact</a></li>
+    </div>
+    <div class="intro-tab">
+        <p class="intro-text"><strong>Welcome!</strong> &#x1F44B You're in the right place.</p>
+    </div>
+    <div class="intro-container">
+        <div class="profile-img-container">
+            <img class="profile" src="pers-website-pic/collab.jpeg" alt="Gyury Lee">
+        </div>
+        <div class="main-intro-container">
+            <p class="main-intro">
+                Nice to meet you! I am a junior currently enrolled as an Info-Science major
+                and a CS minor at the University of Illinois Urbana-Champaign. My relevant
+                coursework includes topics such as Machine Learning, Data Structures, and
+                Linear Algebra, and I participate in CTF events in my extracurricular group
+                SigPwny here at the university.
+            </p>
+        </div>
+    </div>
+    <div id="social-background">
+        <strong>Reach out here:</strong>
+        <div singleCol class="SMicon">
+            <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>

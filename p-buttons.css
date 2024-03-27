@@ -1,0 +1,74 @@
+.Github_button {
+    background-color:rgb(142, 193, 237);
+    color:white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: top;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    transition: background-color 0.3s, opacity 0.3s;
+}
+.Github_button:hover {
+    background-color:rgb(121, 174, 245);
+}
+.Github_button:active {
+    opacity: 0.5;
+}
+
+.Youtube_button {
+    background-color: white;
+    border-color: rgb(142, 193, 237);
+    border-style: solid;
+    border-width: 2px;
+    color:rgb(142, 193, 237);
+    border-radius: 2px;
+    cursor: pointer;
+    vertical-align: top;
+    height: 75px;
+    width: 100px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
+
+    transition: background-color 0.3s,
+    color 0.3s, opacity 0.3s;
+}
+.Youtube_button:hover {
+    background-color: rgb(142, 193, 237);
+    color: white;
+}
+.Youtube_button:active {
+    opacity: 0.5;
+}
+
+.Twitter_button {
+    background-color:rgb(142, 193, 237);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 8px;
+    vertical-align: top;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    transition: box-shadow 0.3s;
+}
+
+.Twitter_button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
