@@ -195,3 +195,44 @@ body {
 .menu.effect li a:hover {
   background: transparent;
 }
+
+
+.section {
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background-color: #fff;
+  max-width: 800px;
+}
+
+.section h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.content {
+  margin: 10px 0;
+}
+
+.content p, .content ul {
+  color: #666;
+  font-size: 16px;
+}
+
+.content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Ensure the body and html occupy full height to enable smooth scrolling */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
